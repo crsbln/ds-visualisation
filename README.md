@@ -121,6 +121,15 @@ code .
 
 Then open a notebook and select the Python environment created by `uv sync` as the kernel.
 
+## My work
+
+- **2 - Plotting Intro**: all three "Try it yourself" tasks solved (side-by-side histograms, the four `catplot` kinds compared, an interactive `px.box`); the checkpoint answers were already in the lesson.
+- **3 - Fetching the Data**: run against the course PostgreSQL database (20,036 rows) and exported to `data/kaggle_survey.csv`. The host name is no longer printed.
+- **4 - Visualization Exercise**: every checkpoint answered and every challenge plotted: salary box plot (Seaborn), gender by country (Plotly), recommended languages overall (Seaborn) and by role as shares (Plotly), and my own question, company size vs ML adoption (Matplotlib).
+- **5 - Fantastic Charts**: run top to bottom.
+- Plotly charts are saved as static PNG pictures (`pio.renderers.default = "png"`, needs `kaleido`) so the notebooks stay small. Delete that line to get interactive charts back.
+- Notebooks 2 and 3 started from my own first run (September 2026); Claude finished the exercises in a delegated pass on 2026-11-25.
+
 ## References & Further Reading
 
 - [**Python Plotting With Matplotlib (Real Python)**](https://realpython.com/python-matplotlib-guide/): A thorough walkthrough of Matplotlib's figure and axes model.
